@@ -10,6 +10,8 @@
 
 
 // Yes, I do not know Javascript.
+$("#WikiaTopAds").remove();
+
 var search = $(".wds-global-navigation__search");
 var home = $(".wordmark");
 var link_to_home = $("a", home).attr("href");
@@ -33,3 +35,4 @@ $(".WikiaPageContentWrapper").empty();
 
 $(".wds-global-footer").remove();
 $("#WikiaFooter").remove();
+$("#WikiaArticleBottomAd").remove();
